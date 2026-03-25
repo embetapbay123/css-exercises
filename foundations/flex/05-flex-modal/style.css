@@ -24,17 +24,12 @@ body {
   padding: 24px;
   gap: 24px;
 }
-.container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 16px;
-}
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  margin-bottom: 8px;
 }
 .icon {
   color: royalblue;
@@ -84,4 +79,8 @@ button.cancel {
 }
 h3 {
   margin: 0;
+}
+
+.text {
+  margin-bottom: 16px;
 }
